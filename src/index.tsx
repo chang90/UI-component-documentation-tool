@@ -58,8 +58,13 @@ const App = () =>{
         <div id="root"></div>
         <script>
           window.addEventListener('message', (event) =>{
-            eval(event.data)
-          })
+            try{
+              eval(event.data);
+            } catch (err) {
+              const root = document.querySelector('#root');
+              root.innerHTML = '<div style="color: red;">' + err + '</div>'
+            }
+          }, false)
         </script>
       </body>
     </html>
