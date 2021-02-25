@@ -36,4 +36,4 @@ export type Action =
   | InsertCellBeforeAction
   | UpdateCellAction
 
-export type Direction = 'up' | 'dowm';
+export type Direction = 'up' | 'down';

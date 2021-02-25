@@ -13,5 +13,14 @@ store.dispatch({
   }
 })
 
+store.dispatch({
+  type: ActionType.INSERT_CELL_EFORE,
+  payload: {
+    id: null,
+    type: 'text'
+  }
+})
+
+
 console.log(store.getState())
 console.log('test')
