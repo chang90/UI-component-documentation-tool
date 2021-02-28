@@ -1,4 +1,4 @@
-# UI Component playground
+# UI-component-documentation-tool
 
 ## install
 ```
