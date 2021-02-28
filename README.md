@@ -1,4 +1,4 @@
-# ESBUILD DISCOVERY
+# UI Component playground
 
 ## install
 ```
