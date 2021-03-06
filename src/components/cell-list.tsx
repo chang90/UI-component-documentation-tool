@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { useTypedSelector } from '../hooks/use-typed-selector';
 import CellListItem from './cell-list-item';
 import AddCell from './add-cell';
+import './cell-list.css';
 const CellList: React.FC = () => {
   const cell = useTypedSelector(({cells: {order, data}}) => {
     return order.map((id) => {
@@ -15,7 +16,7 @@ const CellList: React.FC = () => {
     <AddCell previousCellId={cell.id} />
   </Fragment>)
   )
-  return <div>
+  return <div className="cell-list">
     <AddCell previousCellId={null} />
     {renderedCells}
   </div>;
