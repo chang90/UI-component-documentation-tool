@@ -23,7 +23,11 @@ export const createCellsRouter = (filename: string, dir: string) => {
     } catch (err) {
       if(err.code === 'ENOENT') {
         // Unable to find file
-        await fsp.writeFile(fullPath, '[]', 'utf8');
+        await fsp.writeFile(
+          fullPath, 
+          '[{"content":"UI Component documentation tool","type":"text","id":"0u8je"},{"content":"// Please write your first React component","type":"code","id":"w6c82"}]', 
+          'utf8'
+        );
         res.send([]);
       } else {
         throw err;
