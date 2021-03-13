@@ -1,6 +1,6 @@
 {
-  "name": "component-tool-cli",
-  "version": "0.0.3",
+  "name": "@hiby90/component-tool-cli",
+  "version": "0.0.4",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
