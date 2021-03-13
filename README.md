@@ -1,5 +1,5 @@
 # UI-component-documentation-tool
-
+![alt text](https://raw.githubusercontent.com/chang90/UI-component-documentation-tool/master/screenshot.png)
 ## Install
 
 ### lerna
