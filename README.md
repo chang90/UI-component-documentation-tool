@@ -39,7 +39,7 @@ cd .\packages\cli\dist
 node index.js serve
 
 ```
-then the React project is host on ocalhost:4005
+then the React project is host on localhost:4005
 
 ## clean up dependency
 ```
