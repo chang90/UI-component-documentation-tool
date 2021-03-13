@@ -1,5 +1,5 @@
 {
-  "name": "c-tool-cli",
+  "name": "component-tool-cli",
   "version": "0.0.1",
   "description": "",
   "bin": "dist/index.js",
