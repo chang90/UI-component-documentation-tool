@@ -11,8 +11,8 @@ const AddCell: React.FC<AddCellProps> = ({ previousCellId }) => {
   return (
     <div className="add-cell">
       <div className="add-buttons">
-        <button className="button is-primary is-small" onClick={() => insertCellAfter(previousCellId, 'code')}>Code</button>
-        <button className="button is-primary is-small" onClick={() => insertCellAfter(previousCellId, 'text')}>Text</button>
+        <button className="button is-info is-small" onClick={() => insertCellAfter(previousCellId, 'code')}>Code</button>
+        <button className="button is-info is-small" onClick={() => insertCellAfter(previousCellId, 'text')}>Text</button>
       </div>
 
       <div className="divider"></div>

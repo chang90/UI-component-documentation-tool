@@ -12,7 +12,6 @@ const App = () => {
     <Provider store={store}>
       <div>
         <CellList />
-        {/* <TextEditor /> */}
       </div>
     </Provider>)
 }
