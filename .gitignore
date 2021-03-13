@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .history/*
+packages/cli/dist/*
+lerna-debug.log
+packages/local-api/dist/*
