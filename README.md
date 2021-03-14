@@ -48,5 +48,12 @@ lerna bootstrap
 
 ## Tech
 1. esbuild
-2. react
-3. axios
+2. React
+3. Redux
+4. immer
+5. TypeScript
+6. axios
+7. NodeJS
+8. express
+9. Lerna
+10. npm package
