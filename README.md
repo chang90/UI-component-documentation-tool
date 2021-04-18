@@ -2,6 +2,7 @@
 An React project to test JS component online.
 
 Screenshot:
+
 ![alt text](https://raw.githubusercontent.com/chang90/UI-component-documentation-tool/master/screenshot.png)
 ## Install
 
